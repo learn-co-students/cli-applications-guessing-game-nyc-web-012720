@@ -12,11 +12,9 @@ end
 
 def run_guessing_game
   num = random_num
-  
+
   prompt_user
-  
   guess = get_user_input
-  
   
   if guess == num
     feedback =  'You guessed the correct number!'
